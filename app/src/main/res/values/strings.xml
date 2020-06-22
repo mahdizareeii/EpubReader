@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="chapter_not_found">فصلی یافت نشد</string>
+</resources>

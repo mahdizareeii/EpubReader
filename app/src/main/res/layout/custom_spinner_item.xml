@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="spinnerModel"
+            type="com.test.app.model.CustomSpinnerModel" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        tools:targetApi="jelly_bean_mr1">
+
+        <TextView
+            android:id="@+id/txtSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{spinnerModel.text}"
+            android:textAppearance="@style/TextViewSetFont"
+            android:textColor="@android:color/tab_indicator_text"
+            android:textSize="18sp"
+            tools:text="@string/app_name" />
+
+    </LinearLayout>
+
+</layout>
